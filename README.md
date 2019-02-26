@@ -12,5 +12,3 @@ How to launch test:
 ```
 npm test
 ```
-
-![screenshot](screenshot.png)
