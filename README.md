@@ -1,8 +1,13 @@
 # Rock Paper Scissors Game
 
-How to install and launch:
+made a simple Rock Paper Scissord Game with ES6 and webpack
+
+How to install:
 ```
 npm install
+```
+How to launch:
+```
 npm start
 ```
 
