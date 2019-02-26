@@ -53,10 +53,10 @@ export default class Game extends React.Component {
         }
         return (
             <Show
-              user={this.state.userChoice}
-              opponent={this.state.opponentChoice}
-              result={this.state.result}
-              onPlayAgainPress={this.onPlayAgainPress}
+                user={this.state.userChoice}
+                opponent={this.state.opponentChoice}
+                result={this.state.result}
+                onPlayAgainPress={this.onPlayAgainPress}
             />
         );
     }

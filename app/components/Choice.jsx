@@ -12,11 +12,8 @@ export default class Choice extends React.Component {
     renderButtons() {
         return conf.choices.map((element, index) => (
             <li key={index}>
-                <button
-                  type="button"
-                  onClick={() => this.select(index)}
-                >
-                  {element}
+                <button type="button" onClick={() => this.select(index)} >
+                    {element}
                 </button>
             </li>
         ));
@@ -26,6 +23,7 @@ export default class Choice extends React.Component {
     render() {
         return (
             <ul>
+                <h1>PICK</h1>
                 {this.renderButtons()}
             </ul>
         );

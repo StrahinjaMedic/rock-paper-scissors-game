@@ -9,12 +9,12 @@ module.exports = {
         inline: true,
         progress: true,
         contentBase: './app',
-        port: 3001
+        port: 3000
     },
     devtool: 'cheap-module-eval-source-map',
     entry: [
         'webpack/hot/dev-server',
-        'webpack-dev-server/client?http://localhost:3001',
+        'webpack-dev-server/client?http://localhost:3000',
         path.resolve(__dirname, 'app/main.jsx')
     ],
     output: {
@@ -43,6 +43,8 @@ module.exports = {
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
-        new OpenBrowserPlugin({ url: 'http://localhost:3001' })
+        new OpenBrowserPlugin({
+            url: 'http://localhost:3000'
+        })
     ]
 };

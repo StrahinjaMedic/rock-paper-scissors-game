@@ -12,15 +12,15 @@ export default class Show extends React.Component {
             <div>
                 <div className="left">
                     YOU<br />
-                    <img src={this.getImage(this.props.user, 'left')} alt={this.props.user} />
+                    <p>{this.props.user}</p>
                 </div>
                 <div className="center">
-                    <h1>{this.props.result}!!!</h1>
+                    <h1>{this.props.result}!</h1>
                     <button type="button" onClick={this.props.onPlayAgainPress}>PLAY AGAIN</button>
                 </div>
                 <div className="right">
                     OPPONENT
-                    <img src={this.getImage(this.props.opponent, 'right')} alt={this.props.opponent} />
+                    <p>{this.props.opponent}</p>
                 </div>
             </div>
         );

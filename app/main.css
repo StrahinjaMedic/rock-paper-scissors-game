@@ -9,6 +9,9 @@ body {
     font-size: 40px;
     text-align: center;
     color: #515A6B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
@@ -18,6 +21,15 @@ button {
     color: white;
     cursor: pointer;
     font-family: 'Oxygen', sans-serif;
+    border-radius: 60px;
+    padding: 10px;
+    transition-timing-function: ease-out;
+}
+
+button:hover {
+    background: blue;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
 }
 
 ul {
@@ -31,6 +43,9 @@ ul li {
 h1 {
     font-size: 60px;
     margin: 0;
+    background-color: yellow;
+    border-radius: 60px;
+    margin-bottom: 10px;
 }
 
 .left {
