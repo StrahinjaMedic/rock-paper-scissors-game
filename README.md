@@ -1,6 +1,4 @@
-# Rock Paper Scissors
-
-Simple rock paper scissors game made for an interview using ES6, React, Webpack
+# Rock Paper Scissors Game
 
 How to install and launch:
 ```
